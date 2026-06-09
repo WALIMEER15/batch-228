@@ -1,3 +1,4 @@
+@ -1,83 +0,0 @@
 let gameSeq = [];
 let userSeq = [];
 let btns = ["yellow", "grey", "purlple", "red"];
@@ -81,3 +82,4 @@ function reset() {
     userSeq = [];
     level = 0;
 }
+
