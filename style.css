@@ -1,15 +1,47 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    padding: 20px;
+}
+.center-sec
+{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+li
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    color: rgb(106, 105, 105);
+}
+button
+{
+    padding: 10px 20px;
+    background-color: #1D4ED8;
+    color: white;
+    border-radius: 10px;
     
 
 }
-main
+.right-sec
 {
-    width: 100%;
-
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
-    background-position: center;
-    background-size: cover;
-    height: 100%;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #1844be;
 }
