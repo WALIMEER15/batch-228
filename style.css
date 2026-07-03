@@ -1,7 +1,7 @@
 *
 {
    margin: 0%;
-   padding: 0%; 
+   padding: 0%;
 }
 
 nav{
@@ -14,7 +14,7 @@ nav{
     width: 98%;
     background-color: #FFFFFF;
     z-index: 1000;
-    border: gray;
+    
     
 }
 body{
@@ -126,6 +126,6 @@ section .btn2{
     0%{content: "Count On";}
     25%{content: "Depend On";}
     50%{content: "Trust In";}
-    100%{content: "Rely On";}
+    %100{content: "Rely On";}
     
 }
