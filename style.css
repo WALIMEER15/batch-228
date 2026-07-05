@@ -34,10 +34,13 @@ nav{
 }
 body{
     padding-top: 80px;
-    background-color: #EFF6FF;
+    background-color: #F0FDFA;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.items{
+    font-size: large;
 }
 .center-sec
 {
@@ -194,14 +197,13 @@ section .btn2{
 }
 .change-content::after{
     content: '';
-    animation: changetext 10s infinite linear;
+    animation: changetext 5s infinite linear;
     color: #0094BD;
 }
 @keyframes changetext{
     0%{content: "the Best Care";}
     25%{content: "a Brighter Smile";}
     50%{content: "Gentle Dentistry";}
-    %100{content: "Your Confidence";}
+    100%{content: "Your Confidence";}
     
 }
-.pic img
