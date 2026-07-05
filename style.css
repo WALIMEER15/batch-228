@@ -2,12 +2,20 @@
 {
    margin: 0%;
    padding: 0%;
+   font-family: sans-serif;
+}
+body{
+   display: flex;
+   text-align: center;
+   align-items: center;
+   flex-direction: column;
 }
 
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 15px;
+
     position: fixed;
     top: 0;
     left: 0;
@@ -20,6 +28,8 @@ nav{
 .logo
 {
     width: 200px;
+    height: auto;
+    margin-left: 10px;
 
 }
 body{
@@ -34,15 +44,78 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 50%;
+    font-size: 17px;
+    font-weight: 9000px;
+    gap: 45px;
 }
 .right-sec
 {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 10px;
 }
+.dot{
+    width: 8px;
+    height: 8px;
+    font-weight: bold;
+    background-color: #0F766E; 
+    border-radius: 50px;
+}
+.prgf{
+    font-size: 20px;
+    width: 45%;
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.patient-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-flex;
+    border: 2px solid #C4F9EF;
+    color: #0e6861;
+    padding: 7px 20px;
+    background-color: #E2EEEB;
+    border-radius: 50px;
+}
+.hero-sec{
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+}
+.rating{
+    display: flex;
+    gap: 150px;
+    /* padding: 05px 100px; */
+    font-size: large;
+}
+.stfy{
+     display: flex;
+    gap: 150px;
+    padding: 100px 100px;
+    font-size: large;
+}
+.pic img{
+    width: 1000px;
+}
+.hr{
+    display: flex;
+    /* margin-left: 100px; */
+    margin-top: 90px;
+    width: 100%;
+    align-items: center;
+    height: 0.063px;
+    background-color: black;
+}
+
 li{
     list-style: none;
 }
@@ -75,23 +148,19 @@ button:hover
     border-radius: 10px;
 }
 .cresent:hover
-{
+{   cursor: pointer;
     background-color: rgb(233, 233, 233);
 }
 a:hover{
     color: black;
 }
-main
-{
-    width: 45%;
-    height: 85vh;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    text-align: center;
+h1{
+    font-size: 50px; font-weight: 680 ; letter-spacing: normal;
+    padding-bottom: 10px;
+
 }
-section h1{
-    font-size: 60px; font-weight:1000 ; letter-spacing: normal;
+span{
+  font-size: 50px; font-weight: 680 ; letter-spacing: normal;  
 }
 section p{
     font-size: 23px;
@@ -135,3 +204,4 @@ section .btn2{
     %100{content: "Your Confidence";}
     
 }
+.pic img
