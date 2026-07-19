@@ -88,7 +88,7 @@ body{
 }
 .hero-sec{
     /* background-color: aquamarine; */
-    display: flex;
+    /* display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -206,4 +206,4 @@ section .btn2{
     50%{content: "Gentle Dentistry";}
     100%{content: "Your Confidence";}
     
-}
+} */
