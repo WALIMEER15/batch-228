@@ -1,69 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ur">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="team.css">
-    <title>Document</title>
+    <title>Department Manager Dashboard</title>
+    <link rel="stylesheet" href="./team.css">
 </head>
-    <section class="team">
-       <div class="hero-sec">
-        <h5><button>Out Team</button></h5>
-         <h1>Meet Our Dentists</h1>
-         <p>Our experienced dental professionals are committed to providing exceptional care with a <br> gentle touch.</p>
-       </div>
-        <div class="team-container">
-            <div class="card">
-                <img src="./assets/Dr.sarah Mitchell.jpg" alt="">
-                <div class="intro">
-                    <h2>Dr. Sarah Mitchell</h2>
-                    <h4>Lead Dentist, DDS</h4>
-                    <p>With over 15 years of experience, Dr. Mitchell is passionate about 
-                    helping families maintain healthy smiles through gentle, patient-centered care.</p>
-                     <h5 class="heading">SPECIALLITIES</h5>
-                        <!-- <div class="specialities"> -->
-                            <span>General Dentistry</span>
-                            <span>Preventive Care</span>
-                            <span>Root Canals</span>
-                        <!-- </div> -->
-                        <div class="university">🎓 Columbia University CDM</div>
-                </div>
-            </div>
-               <div class="card">
-                    <img src="./assets/Dr.James Park.jpg" alt="">
-                    <div class="intro">
-                     <h2>Dr. James Park</h2>
-                      <h4>Cosmetic Dentist, DMD</h4>
-                      <p>Dr. Park specializes in transformative cosmetic procedures, combining artistry
-                        with dental science to create stunning, natural-looking results.</p>
-                        <h5 class="heading">SPECIALLITIES</h5>
-                        <!-- <div class="specialities"> -->
-                            <span>Cosmetic Dentistry</span>
-                            <span>Veneers</span>
-                            <span>Implants</span>
-                        <!-- </div> -->
-                        <div class="university">🎓UCSF School of Dentistry</div>
-                     </div>
-              </div>
-                <div class="card">
-                    <img src="./assets/Dr.Maria Santos.jpg" alt="">
-                    <div class="intro">
-                        <h2>Dr. Maria Santos</h2>
-                        <h4>Orthodontist, DDS, MS</h4>
-                        <p>Dr. Santos brings a decade of orthodontic expertise, helping children and 
-                        adults achieve perfectly aligned smiles with the latest techniques.</p>
-                         <h5 class="heading">SPECIALLITIES</h5>
-                        <!-- <div class="specialities"> -->
-                            <span>Orthodontics</span>
-                            <span>Clear Aligners</span>
-                            <span>Pediatric Ortho</span>
-                        <!-- </div> -->
-                        <div class="university">🎓 NYU College of Dentistry</div>
-                    </div>
-                </div>
-        </div>
-    </section>
 <body>
-    
+
+<div class="sidebar">
+    <h2>Department Manager</h2>
+
+    <ul>
+        <li>🏠 Dashboard</li>
+        <li>👨‍💼 Employees</li>
+        <li>🕒 Attendance</li>
+        <li>📝 Leave Requests</li>
+        <li>📋 Tasks</li>
+        <li>⭐ Performance</li>
+        <li>📊 Reports</li>
+        <li>👤 Profile</li>
+        <li>🚪 Logout</li>
+    </ul>
+</div>
+
+<div class="main">
+
+    <div class="header">
+        <h1>Dashboard</h1>
+        <h3>Welcome Department Manager</h3>
+    </div>
+
+    <div class="cards">
+
+        <div class="card">
+            <h2>50</h2>
+            <p>Total Employees</p>
+        </div>
+
+        <div class="card">
+            <h2>45</h2>
+            <p>Present Today</p>
+        </div>
+
+        <div class="card">
+            <h2>5</h2>
+            <p>Absent</p>
+        </div>
+
+        <div class="card">
+            <h2>3</h2>
+            <p>Leave Requests</p>
+        </div>
+
+    </div>
+
+    <div class="table-box">
+
+        <h2>Employee List</h2>
+
+        <table>
+
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Status</th>
+            </tr>
+
+            <tr>
+                <td>EMP001</td>
+                <td>WALI MEER</td>
+                <td>Department Manager</td>
+                <td>Present</td>
+            </tr>
+
+            <tr>
+                <td>EMP002</td>
+                <td>WASEEM KHAN</td>
+                <td>Payroll Officer</td>
+                <td>Absent</td>
+            </tr>
+
+            <tr>
+                <td>EMP003</td>
+                <td>SYED ASAD</td>
+                <td>HR Manager</td>
+                <td>Present</td>
+            </tr>
+
+            <tr>
+                <td>EMP004</td>
+                <td>KHAN</td>
+                <td>IT Administrato</td>
+                <td>Present</td>
+            </tr>
+
+            <tr>
+                <td>EMP003</td>
+                <td>AYESHA</td>
+                <td>Admin</td>
+                <td>Absent</td>
+            </tr>
+
+        </table>
+
+    </div>
+
+</div>
+
 </body>
 </html>
